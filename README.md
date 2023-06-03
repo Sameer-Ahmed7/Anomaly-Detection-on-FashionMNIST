@@ -1,5 +1,7 @@
-# Anomaly-Detection-on-FashionMNIST
-In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model.
+# Anomaly-Detection-on-FashionMNIST 
+
+In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. </p>
+
 
 <h1>Task Description:</h1>
 Our task is to find out anomaly detection in FashionMNIST dataset. Anomaly detection
@@ -42,11 +44,25 @@ and Generator is based on autoencoder. This time we try to use different loss
 functions according to the research paper.
 https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 
-<h1>Setup Environment<.h1>
-
+<h1>Setup Environment</h1>
+<ul>
+<li>To access the code click
 <a href="https://colab.research.google.com/github/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/blob/main/DL_FinalProject.ipynb">
-  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
-</a>
+  <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></li>
+<li>To download the pytorch lightning model Go to <a href='https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/tree/main/lightning_logs'>lightning_logs</a> section on GitHub</li>
+  <li>Make sure install all dependencies.</li>
+  <li>Connect to Google Colab GPU (Recommended), because in this notebook, we also see some of the images (results) in every 100th batch. So it is necessary to use GPU.</li>
+</ul>
+<p>
+<b>Note:</b>
+
+> <p>In this notebook, I used TensorBoard for better visualization. If it doesn't work, please download the logs from the <a href='https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/tree/main/lightning_logs'>lightning_logs</a> section on GitHub."</p>
+> <p>In TensorBoard <b>'version_o' for (Baseline Model)</b>, and <b>'version_1' for (SOTA Model)</b>.</p>
+
+
+
+  
+  
 <h1>Baseline Model:</h1>
 The first model is the baseline approach, where the model is based on traditional
 GAN, and Generator is based on autoencoder. “I am taken the same
