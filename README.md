@@ -57,7 +57,7 @@ https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 <b>Note:</b>
 
 > <p>In this notebook, I used TensorBoard for better visualization. If it doesn't work, please download the logs from the <a href='https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/tree/main/lightning_logs'>lightning_logs</a> section on GitHub."</p>
-> <p>In TensorBoard <b>'version_o' for (Baseline Model)</b>, and <b>'version_1' for (SOTA Model)</b>.</p>
+> <p>In TensorBoard <b>'version_0' for (Baseline Model)</b>, and <b>'version_1' for (SOTA Model)</b>.</p>
 
 
 
