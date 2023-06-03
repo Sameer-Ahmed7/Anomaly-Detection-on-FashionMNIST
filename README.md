@@ -43,7 +43,7 @@ functions according to the research paper.
 https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 
 <h1>Setup Environment<.h1>
-<a href="[https://colab.research.google.com/github/Sameer-Ahmed7/CvT_NN_Project/blob/main/CVT_Final.ipynb](https://colab.research.google.com/drive/1TBp84e7kjO91GNiDBvruulc1KiWEnsRX?usp=sharing)">
+<a href="[https://colab.research.google.com/drive/1TBp84e7kjO91GNiDBvruulc1KiWEnsRX?usp=sharing]">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a>
 <h1>Baseline Model:</h1>
 The first model is the baseline approach, where the model is based on traditional
