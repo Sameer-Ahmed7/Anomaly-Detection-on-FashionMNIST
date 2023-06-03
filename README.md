@@ -44,7 +44,7 @@ https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 
 <h1>Setup Environment<.h1>
 
-<a href="https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/blob/main/DL_FinalProject.ipynb">
+<a href="https://colab.research.google.com/github/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/blob/main/DL_FinalProject.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 <h1>Baseline Model:</h1>
