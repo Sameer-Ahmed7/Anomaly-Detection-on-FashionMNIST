@@ -1,10 +1,13 @@
-# Anomaly-Detection-on-FashionMNIST 
 
-In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. </p>
+# Project Title
+Anomaly Detection on FashionMNIST Dataset
+
+# Overview
+This repository showcases my project on anomaly detection within the FashionMNIST dataset, featuring both a baseline model and a state-of-the-art (SOTA) model. This project was developed for the **Deep Learning** course within my Master’s program in Artificial Intelligence and Robotics at [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 
 <h1>Task Description:</h1>
-Our task is to find out anomaly detection in FashionMNIST dataset. Anomaly detection
+Our task is to find out anomaly detection in the FashionMNIST dataset. Anomaly detection
 on FashionMNIST refers to the process of identifying unusual or anomalous patterns in
 the FashionMNIST dataset. FashionMNIST is a popular benchmark dataset in the field
 of computer vision, consisting of 60,000 labeled images of 10 different fashion
@@ -15,8 +18,8 @@ patterns present in the dataset. In the context of FashionMNIST, anomalies can b
 images that do not belong to any of the predefined fashion categories or images that
 exhibit unusual or unexpected characteristics compared to the majority of the dataset.
 <h1>What is our approach:</h1>
-Here to find out anomalies in FashionMNIST dataset, I am considering one
-FashionMNIST class (label) as normal and rest of nine classes as anomaly.
+Here to find out anomalies in the FashionMNIST dataset, I have considered one
+FashionMNIST class (label) as normal and the rest of the nine classes as an anomaly.
 <ol>
   <li>
     <b>Normal</b>
@@ -36,7 +39,7 @@ FashionMNIST class (label) as normal and rest of nine classes as anomaly.
 <li>Class 9 (Ankle boot)</li>
     </ul>
 </ol>
-Here, I am taken two approaches,
+Here, I have taken two approaches,
 One is the baseline approach, where the model is based on Normal GAN, and
 Generator is based on autoencoder. On the other hand, The second approach is
 based on a state-of-the-art (SOTA) model, where the model is based on DCGAN,
@@ -49,7 +52,7 @@ https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 <li>To access the code click
 <a href="https://colab.research.google.com/github/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/blob/main/DL_FinalProject.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/></a></li>
-<li>To download the pytorch lightning model Go to <a href='https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/tree/main/lightning_logs'>lightning_logs</a> section on GitHub</li>
+<li>To download the PyTorch lightning model Go to <a href='https://github.com/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/tree/main/lightning_logs'>lightning_logs</a> section on GitHub</li>
   <li>Make sure install all dependencies.</li>
   <li>Connect to Google Colab GPU (Recommended), because in this notebook, we also see some of the images (results) in every 100th batch. So it is necessary to use GPU.</li>
 </ul>
@@ -65,10 +68,10 @@ https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
   
 <h1>Baseline Model:</h1>
 The first model is the baseline approach, where the model is based on traditional
-GAN, and Generator is based on autoencoder. “I am taken the same
+GAN and Generator are based on autoencoder. “I have taken the same
 methodology given in the SOTA model research paper”. But here the
-approach is traditional GAN instead of DCGAN. And here I am using a single
-loss function, Mean Squared Error (MSE) Loss. No multiple losses mention in
+approach is traditional GAN instead of DCGAN. Here I have used a single
+loss function, Mean Squared Error (MSE) Loss. No multiple losses are mentioned in
 the SOTA model paper. The traditional GAN approach and the use of MSE loss
 provide a straightforward and easy-to-implement solution. This approach may be
 suitable for initial exploratory research or as a baseline to compare against more
@@ -81,12 +84,12 @@ complex models.
 <img src="Results/Model-1/img1.jpg" alt="Model Result (Training Data">
 
 <h1>Model Results (Testing Data):</h1>
-<img src="Results/Model-1/img2.jpg" alt="Model Results (Testing Data)">
+<img src="Results/Model-1/img2.jpg" alt=" Model Results (Testing Data)">
 
 <p align="center"><i><b>‘The model has some noise, It’s not generating an accurate image of Normal.’</b></i></p>
 
 <h1>State-of-the-art (SOTA) Model</h1>
-Here, I am using DCGAN instead of GAN. And the losses will be calculated according to the SOTA model paper.
+Here, I have used DCGAN instead of GAN. And the losses will be calculated according to the SOTA model paper.
 <h1>Model Architecture:</h1>
 
 <img src="Results/Model-2/model_architecture.jpg" alt="Model Architecture">
@@ -95,7 +98,7 @@ Here, I am using DCGAN instead of GAN. And the losses will be calculated accordi
 <img src="Results/Model-2/img1.jpg" alt="Model Result (Training Data">
 
 <h1>Model Results (Testing Data):</h1>
-<img src="Results/Model-2/img2.jpg" alt="Model Results (Testing Data)">
+<img src="Results/Model-2/img2.jpg" alt=" Model Results (Testing Data)">
 
 <p align="center"><i><b>‘The model has not generated noise now, It’s generating approx the same result as a Normal image and changing the image for an anomaly image.’</b></i></p>
 
