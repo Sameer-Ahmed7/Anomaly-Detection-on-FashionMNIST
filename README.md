@@ -3,7 +3,7 @@
 Anomaly Detection on FashionMNIST Dataset
 
 # Overview:
-This repository showcases my project on anomaly detection within the FashionMNIST dataset, featuring both a baseline model and a state-of-the-art (SOTA) model. This project was developed for the **Deep Learning** course within my Master’s program in Artificial Intelligence and Robotics at [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
+This repository showcases my project on anomaly detection within the FashionMNIST dataset, featuring both a baseline model and a state-of-the-art (SOTA) model. This project was developed for the **DEEP LEARNING** course within my Master’s program in Artificial Intelligence and Robotics at [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 
 <h1>Task Description:</h1>
