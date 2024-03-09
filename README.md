@@ -1,8 +1,8 @@
 
-# Project Title
+# Project Title: 
 Anomaly Detection on FashionMNIST Dataset
 
-# Overview
+# Overview:
 This repository showcases my project on anomaly detection within the FashionMNIST dataset, featuring both a baseline model and a state-of-the-art (SOTA) model. This project was developed for the **Deep Learning** course within my Master’s program in Artificial Intelligence and Robotics at [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home).
 
 
@@ -47,7 +47,7 @@ and Generator is based on autoencoder. This time we try to use different loss
 functions according to the research paper.
 https://paperswithcode.com/paper/gan-based-anomaly-detection-in-imbalance
 
-<h1>Setup Environment</h1>
+<h1>Setup Environment:</h1>
 <ul>
 <li>To access the code click
 <a href="https://colab.research.google.com/github/Sameer-Ahmed7/Anomaly-Detection-on-FashionMNIST/blob/main/DL_FinalProject.ipynb">
@@ -80,7 +80,7 @@ complex models.
 <h1>Model Architecture:</h1>
 <img src="Results/Model-1/model_architecture.jpg" alt="Model Architecture">
 
-<h1>Model Result (Training Data)</h1>
+<h1>Model Result (Training Data):</h1>
 <img src="Results/Model-1/img1.jpg" alt="Model Result (Training Data">
 
 <h1>Model Results (Testing Data):</h1>
@@ -88,13 +88,13 @@ complex models.
 
 <p align="center"><i><b>‘The model has some noise, It’s not generating an accurate image of Normal.’</b></i></p>
 
-<h1>State-of-the-art (SOTA) Model</h1>
+<h1>State-of-the-art (SOTA) Model:</h1>
 Here, I have used DCGAN instead of GAN. And the losses will be calculated according to the SOTA model paper.
 <h1>Model Architecture:</h1>
 
 <img src="Results/Model-2/model_architecture.jpg" alt="Model Architecture">
 
-<h1>Model Result (Training Data)</h1>
+<h1>Model Result (Training Data):</h1>
 <img src="Results/Model-2/img1.jpg" alt="Model Result (Training Data">
 
 <h1>Model Results (Testing Data):</h1>
@@ -102,7 +102,7 @@ Here, I have used DCGAN instead of GAN. And the losses will be calculated accord
 
 <p align="center"><i><b>‘The model has not generated noise now, It’s generating approx the same result as a Normal image and changing the image for an anomaly image.’</b></i></p>
 
-<h1> AUROC Result For Test Dataset</h1>
+<h1> AUROC Result For Test Dataset:</h1>
 
 
 | Model                           | AUROC     |
