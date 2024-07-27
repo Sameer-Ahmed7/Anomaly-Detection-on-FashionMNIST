@@ -2,6 +2,8 @@
 
 In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. </p>
 
+<img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image">
+
 
 <h1>Task Description:</h1>
 Our task is to find out anomaly detection in FashionMNIST dataset. Anomaly detection
