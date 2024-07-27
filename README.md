@@ -1,8 +1,10 @@
-# Anomaly-Detection-on-FashionMNIST 
+# Project Title:
+**Anomaly Detection On FashionMNIST**
 
-In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. </p>
+# Overview:
+In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. The project was developed as part of the **DEEP LEARNING** course within my Master’s in Artificial Intelligence and Robotics at the [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home), showcasing the practical application of advanced concepts in a real-world scenario.</p>
 
-<img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image">
+<img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image" >
 
 
 <h1>Task Description:</h1>
@@ -101,10 +103,10 @@ Here, I am using DCGAN instead of GAN. And the losses will be calculated accordi
 
 <p align="center"><i><b>‘The model has not generated noise now, It’s generating approx the same result as a Normal image and changing the image for an anomaly image.’</b></i></p>
 
-<h1> AUROC Result For Test Dataset</h1>
+<h1> Result:</h1>
 
 
-| Model                           | AUROC     |
+| Model                           | AUROC  (Test Data)  |
 |---------------------------------|-----------|
 | Baseline Model                  | ≈ 87%    |
 | State-of-the-art (SOTA) Model   | ≈ 90%    |
