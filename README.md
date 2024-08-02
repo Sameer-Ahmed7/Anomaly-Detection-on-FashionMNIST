@@ -2,7 +2,7 @@
 **Anomaly Detection On FashionMNIST**
 
 # Overview:
-In this repository, I am designing a model, who are able to find out anomalies in FashionMNIST data. Here I am designing 2 different approaches, One is a baseline approach and the other is State-of-the-art (SOTA) model. The project was developed as part of the **DEEP LEARNING** course within my Master’s in Artificial Intelligence and Robotics at the [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home), showcasing the practical application of advanced concepts in a real-world scenario.</p>
+In this repository, I am designing a model to find anomalies in FashionMNIST data. Here I am designing two different approaches: one is a baseline approach and the other is a State-of-the-art (SOTA) model. The project was developed as part of the **DEEP LEARNING** course, taught by Professor [FABRIZIO SILVESTRI](https://corsidilaurea.uniroma1.it/en/users/fabriziosilvestriuniroma1it), within my Master’s in Artificial Intelligence and Robotics at the [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home), showcasing the practical application of advanced concepts in a real-world scenario.</p>
 
 <img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image" >
 
