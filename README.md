@@ -92,27 +92,39 @@ suitable for initial exploratory research or as a baseline to compare against mo
 complex models.
 
 <h1>Model Architecture:</h1>
-<img src="Results/Model-1/model_architecture.jpg" alt="Model Architecture">
+<p align="center">
+<img src="Results/Model-1/model_architecture.jpg" alt="Model Architecture" width="70%" height="70%">
+</p>
 
 <h1>Model Result (Training Data)</h1>
-<img src="Results/Model-1/img1.jpg" alt="Model Result (Training Data">
+<p align="center">
+<img src="Results/Model-1/img1.jpg" alt="Model Result (Training Data" width="70%" height="70%">
+</p>
 
 <h1>Model Results (Testing Data):</h1>
-<img src="Results/Model-1/img2.jpg" alt="Model Results (Testing Data)">
+<p align="center">
+<img src="Results/Model-1/img2.jpg" alt="Model Results (Testing Data)" width="70%" height="70%">
+</p>
 
 <p align="center"><i><b>‘The model has some noise, It’s not generating an accurate image of Normal.’</b></i></p>
 
 <h1>State-of-the-art (SOTA) Model</h1>
 Here, I am using DCGAN instead of GAN. And the losses will be calculated according to the SOTA model paper.
 <h1>Model Architecture:</h1>
-
-<img src="Results/Model-2/model_architecture.jpg" alt="Model Architecture">
+<p align="center">
+<img src="Results/Model-2/model_architecture.jpg" alt="Model Architecture" width="70%" height="70%">
+</p>
 
 <h1>Model Result (Training Data)</h1>
-<img src="Results/Model-2/img1.jpg" alt="Model Result (Training Data">
+<p align="center">
+<img src="Results/Model-2/img1.jpg" alt="Model Result (Training Data" width="70%" height="70%">
+</p>
 
 <h1>Model Results (Testing Data):</h1>
-<img src="Results/Model-2/img2.jpg" alt="Model Results (Testing Data)">
+<p align="center">
+<img src="Results/Model-2/img2.jpg" alt="Model Results (Testing Data)" width="70%" height="70%">
+</p>
+
 
 <p align="center"><i><b>‘The model has not generated noise now, It’s generating approx the same result as a Normal image and changing the image for an anomaly image.’</b></i></p>
 
