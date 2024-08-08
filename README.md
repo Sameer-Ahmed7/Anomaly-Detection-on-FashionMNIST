@@ -1,11 +1,24 @@
 # Project Title:
-**Anomaly Detection On FashionMNIST**
+**Anomaly Detection On FashionMNIST Dataset**
 
 # Overview:
 In this repository, I am designing a model to find anomalies in FashionMNIST data. Here I am designing two different approaches: one is a baseline approach and the other is a State-of-the-art (SOTA) model. The project was developed as part of the **DEEP LEARNING** course, taught by Professor [FABRIZIO SILVESTRI](https://corsidilaurea.uniroma1.it/en/users/fabriziosilvestriuniroma1it), within my Master’s in Artificial Intelligence and Robotics at the [Sapienza University of Rome](https://www.uniroma1.it/it/pagina-strutturale/home), showcasing the practical application of advanced concepts in a real-world scenario.</p>
 
-<img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image" >
+<p align="center">
+<img src="fashion_mnist_dataset_sample.png" alt="Add Fashion Mnist Dataset Image" width="70%" height="70%">
+</p>
+<h1>
+Introduction:
+</h1>
+  Anomaly detection in images involves identifying abnormal unusual patterns within a given dataset of images.
 
+<h2>For Example:</h2>
+<p>
+Let's suppose, We have an Apple packaging industry, and our task is to pack only Fresh apples (Normal), But most of the time we get rotten apples, So for that we have to apply anomaly detection in such a way that It's classified 'Fresh apples' as (Normal) and 'Rotten Apples' as (Anomaly). By applying anomaly detection, the system can analyze the visual characteristics of the apples, such as color, texture, shape, and any signs of decay or spoilage. The majority of the normal or fresh apples should be classified as "normal," indicating they meet the quality criteria for packaging. On the other hand, any apples exhibiting anomalies associated with rot, such as discoloration, mold, or a soft texture, should be classified as "anomalies" and rejected from the packaging process.
+</p>
+<p align="center">
+<img src="apple_example.png" alt="Add Apple Example Image" width="50%" height="50%">
+</p>
 
 <h1>Task Description:</h1>
 Our task is to find out anomaly detection in FashionMNIST dataset. Anomaly detection
